@@ -1,70 +1,48 @@
-🛡️ SECURE DATA HIDING IN IMAGES USING STEGANOGRAPHY
+# Secure Data Hiding in Images using Steganography
 
-🔍 Project Description
-This project implements image steganography, a technique to securely hide sensitive data within images. 
-Using advanced encoding algorithms, we ensure that the hidden data remains undetectable to unauthorized users.
+## 📘 Project Overview
 
-🔑 Key Features:
-✅ Data Security - Encrypt and hide confidential information.
-🖼️ Image-Based Hiding - Conceal data within PNG, JPG images.
-⚡ User-Friendly - Simple encoding & decoding interface.
-🔒 Password Protection - Secure access to hidden data.
+This project demonstrates how to securely hide sensitive data within digital images using image steganography. The system allows encoding and decoding of hidden information with optional encryption, ensuring secure communication and data concealment.
 
-📌 How It Works?
-1️⃣ Encoding (Hiding Data)
-Select an image.
-Input the secret message/file.
-Encrypt and hide it inside the image.
+---
 
+## 🔐 Features
 
-2️⃣ Decoding (Retrieving Data)
-Load the stego-image.
-Enter the decryption key (if any).
-Extract the hidden data.
+- **Data Security:** Encrypt and embed confidential messages or files into image files.
+- **Image-based Hiding:** Works with PNG and JPG image formats.
+- **User-friendly Interface:** Simplified encoding and decoding process.
+- **Password Protection:** Secure the decoding process using a decryption key.
 
+---
 
-🖼️ Example:
+## 🔧 How It Works
 
-Original Image                                      	Encoded Image
+### 1. Encoding (Hiding Data)
+- Upload/select an image.
+- Enter the message or upload the file to hide.
+- Encrypt and embed the data into the image.
+- Save the output stego-image.
 
+### 2. Decoding (Extracting Data)
+- Load the stego-image (image containing hidden data).
+- Provide the correct password/key (if enabled).
+- The system extracts and decrypts the hidden content.
 
-⚙️ Installation & Setup
-📌 Prerequisites:
-🔹 Python 3.x
-🔹 Required Libraries: numpy, PIL, cv2
-   git clone [https://github.com/deepakshroff/AICTE_Project] 
-   cd steganography  
-   pip install -r requirements.txt  
-   python main.py 
+---
 
- 🎮 Usage Guide
-🔹 Run the Application:
-    python main.py
+## 🧪 Technologies Used
 
-🔹 Select an option:
-    1 Hide Data in Image
-    2 Extract Data from Image
+- **Programming Language:** Python 3.x
+- **Libraries:** `numpy`, `Pillow (PIL)`, `OpenCV (cv2)`
 
+---
 
-📂 Project Structure
-📁 Secure-Image-Steganography  
- ┣ 📂 images          # Sample images  
- ┣ 📂 src             # Source code  
- ┃ ┣ 📜 encoder.py    # Encoding logic  
- ┃ ┣ 📜 decoder.py    # Decoding logic  
- ┃ ┣ 📜 gui.py        # User Interface  
- ┣ 📜 README.md       # Documentation  
- ┣ 📜 requirements.txt # Dependencies 
+## ⚙️ Installation & Setup
 
+### Prerequisites
+- Python 3.x installed on your system
 
- 🛠️ Technologies Used
-🚀 Programming Language - Python
-🖥️ Libraries - OpenCV, NumPy, PIL
-
-👨‍💻 Contributors
-💡 Your Name - deepakshroff
-
-📧 Contact: deepakshroff.code@gmail.com
-
-📜 License
-📄 This project is licensed under the MIT License. 
+### Clone the Repository
+```bash
+git clone https://github.com/deepakkumar-ai/AICTE_Project-main
+cd AICTE_Project-main
