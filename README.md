@@ -40,11 +40,11 @@ This project demonstrates how to securely hide sensitive data within digital ima
 ## 📂 Project Structure
 
 AICTE_Project-main/
-├── encode.py           # Script to hide data in an image
-├── decode.py           # Script to extract data from image
-├── requirements.txt    # Python dependencies
-├── sample_images/      # Folder for input/output images
-└── README.md           # Project documentation
+- ├── encode.py           # Script to hide data in an image.
+- ├── decode.py           # Script to extract data from image.
+- ├── requirements.txt    # Python dependencies.
+- ├── sample_images/      # Folder for input/output images.
+- └── README.md           # Project documentation.
 
 ---
 
